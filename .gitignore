@@ -1,0 +1,29 @@
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*secret*.yaml
+*credentials*.yaml
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Kubernetes local configuration
+kubeconfig
+*.kubeconfig
+
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
